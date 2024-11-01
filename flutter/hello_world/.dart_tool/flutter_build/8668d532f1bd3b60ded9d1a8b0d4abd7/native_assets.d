@@ -1,0 +1,1 @@
+ /Users/dmitriyb/Desktop/Class\ Examples/hello_world/.dart_tool/flutter_build/8668d532f1bd3b60ded9d1a8b0d4abd7/native_assets.yaml: 
