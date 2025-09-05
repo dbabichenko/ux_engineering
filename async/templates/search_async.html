@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Find What You Need</h1>
+        <form class="search-form" onsubmit="javascript:return false;">
+            <input type="text" name="query" placeholder="Type your search..." required>
+            <button id="fetch">Search</button>
+        </form>
+        <br /><br />
+        <div id="results_container" style="display: none;">
+            <h1>Search Results</h1>
+            <div id="results">
+                Searching... Please be patient.
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    $(document).ready(function () {
+        
+        $("#fetch").on("click", function () {
+            $("#results_container").css({"display" : "block"});
+            $.getJSON("get_data", function(responseData){
+                $("#results").html(displayResults(responseData));
+            });
+
+            
+        });
+    });
+
+    function displayResults(data){
+        let search_results = "";
+        
+        for(var i = 0; i<data.length - 1; i++){
+            search_results += "<li>" + data[i] + "</li>";
+        }
+        return "<ul>" + search_results + "</ul>";
+                
+    }
+</script>
+</html>
