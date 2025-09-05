@@ -5,13 +5,15 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Text Field Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Text Field Example'),
+          title: const Text('Text Field Example'),
         ),
         body: TextFieldDemo(),
       ),
@@ -20,6 +22,8 @@ class MyApp extends StatelessWidget {
 }
 
 class TextFieldDemo extends StatefulWidget {
+  const TextFieldDemo({super.key});
+
   @override
   _TextFieldDemoState createState() => _TextFieldDemoState();
 }
@@ -37,13 +41,13 @@ class _TextFieldDemoState extends State<TextFieldDemo> {
         children: [
           TextField(
             controller: _controller,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'Enter your name',
               hintText: 'John Doe',
             ),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {
               // Access the text in the TextField
@@ -59,7 +63,7 @@ class _TextFieldDemoState extends State<TextFieldDemo> {
                 },
               );
             },
-            child: Text('Submit'),
+            child: const Text('Submit'),
           ),
         ],
       ),

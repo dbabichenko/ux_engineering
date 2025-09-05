@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Find What You Need</h1>
+        <form class="search-form" method="GET" action="/results_refresh">
+            <input type="text" name="query" placeholder="Type your search..." required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>

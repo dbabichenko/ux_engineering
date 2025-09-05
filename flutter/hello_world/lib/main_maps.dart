@@ -6,6 +6,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,6 +18,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MapScreen extends StatefulWidget {
+  const MapScreen({super.key});
+
   @override
   _MapScreenState createState() => _MapScreenState();
 }
@@ -24,11 +28,11 @@ class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
 
   // Initial location: New York City
-  final LatLng _initialPosition = LatLng(40.7128, -74.0060);
+  final LatLng _initialPosition = const LatLng(40.7128, -74.0060);
 
   // Marker example
   final Set<Marker> _markers = {
-    Marker(
+    const Marker(
       markerId: MarkerId('nyc'),
       position: LatLng(40.7128, -74.0060),
       infoWindow: InfoWindow(
@@ -47,7 +51,7 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Google Maps Example'),
+        title: const Text('Google Maps Example'),
       ),
       body: GoogleMap(
         onMapCreated: _onMapCreated,
@@ -62,10 +66,10 @@ class _MapScreenState extends State<MapScreen> {
         onPressed: () {
           // Move to another position
           mapController.animateCamera(
-            CameraUpdate.newLatLng(LatLng(34.0522, -118.2437)), // Los Angeles
+            CameraUpdate.newLatLng(const LatLng(34.0522, -118.2437)), // Los Angeles
           );
         },
-        child: Icon(Icons.location_city),
+        child: const Icon(Icons.location_city),
       ),
     );
   }

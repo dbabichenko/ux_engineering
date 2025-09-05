@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        
+    </script>
+</head>
+<body>
+    
+    <div class="results_container">
+        <h1>Search Results</h1>
+        <div id="results">
+            
+        </div>
+    </div>
+    <script>
+        let fakeBooks = [
+            "Anderson, L. M. (2015). *Whispers of the Forgotten Shore*. Blue Horizon Press.",
+            "Baker, T. J. (2019). *Echoes in the Iron Forest*. Silverleaf Publications.",
+            "Chen, R. Y. (2021). *The Clockmaker’s Secret*. Lantern House.",
+            "Davis, M. K. (2017). *Shadows Beneath the Glass Tower*. Emberlight Books.",
+            "Evans, P. A. (2013). *The Last Voyage of the Starling*. Northwind Press.",
+            "Foster, C. J. (2018). *Dreams of a Silent City*. Willowbrook Press.",
+            "Garcia, S. L. (2020). *The Cartographer’s Dilemma*. Aurora Books.",
+            "Harrison, J. E. (2016). *Through the Veil of Smoke*. Obsidian Gate Publishing.",
+            "Iverson, N. P. (2014). *Legends of the Broken River*. Sunstone Press.",
+            "Jones, K. R. (2012). *Songs of the Midnight Lantern*. Twilight Publications.",
+            "Kim, D. H. (2019). *The Garden of Shifting Sands*. Lotus Blossom Books.",
+            "Lewis, H. F. (2017). *Portrait of a Fading Sky*. Starlight House.",
+            "Martinez, A. C. (2015). *Fragments of a Hidden World*. Ironleaf Press.",
+            "Nelson, R. J. (2022). *Storm over the Crimson Fields*. Cloudspire Publishing.",
+            "Owens, B. L. (2011). *The Alchemist’s Daughter*. Crystal Dawn Press.",
+            "Patel, S. R. (2018). *A Thousand Silent Echoes*. Golden Path Books.",
+            "Quinn, T. E. (2013). *The Mirror of Forgotten Dreams*. Shadow Vale Press.",
+            "Ramirez, J. L. (2021). *The Oracle of Winter’s Edge*. Sapphire Star Publishing.",
+            "Stevens, P. M. (2019). *Threads of the Endless Tapestry*. Moonstone Press.",
+            "Turner, G. H. (2016). *The Lighthouse at Dusk*. Harbor Light Books.",
+            "Underwood, F. K. (2014). *Secrets of the Hollow Mountain*. Darkwood Press.",
+            "Vega, I. N. (2017). *The Astronomer’s Promise*. Polaris Books.",
+            "Walker, D. S. (2012). *The Clockwork Garden*. Brass Lantern Press.",
+            "Xu, L. J. (2020). *Embers in the Silent Snow*. Jade River Publishing.",
+            "Young, R. A. (2015). *The Song of the Endless Sea*. Horizon Gate Press.",
+            "Zimmer, C. T. (2018). *Crown of the Fallen Kings*. Iron Crown Publishing.",
+            "Adams, P. L. (2016). *Beneath the Crimson Tide*. Coral Reef Press.",
+            "Brooks, J. E. (2019). *The Painter of Ashen Skies*. Indigo Leaf Press.",
+            "Clark, W. H. (2013). *The Castle of Glass and Bone*. Granite Hill Press.",
+            "Diaz, E. V. (2014). *Silhouettes of the Forgotten Moon*. Eclipse Books.",
+            "Ellis, K. N. (2017). *The Weaver of Starlight Dreams*. Aurora Vale Press.",
+            "Fang, Z. Q. (2021). *Whispers from the Jade Pavilion*. Celestial Bridge Publishing.",
+            "Grant, O. P. (2018). *The Map of Endless Horizons*. Pathfinder Books.",
+            "Harper, C. L. (2015). *Bells of the Desert Wind*. Golden Mirage Press.",
+            "Irwin, M. S. (2016). *The Labyrinth of Broken Time*. Spiral Path Publishing.",
+            "Jensen, F. G. (2020). *The Winter King’s Secret*. Frostfall Books.",
+            "Knight, A. B. (2019). *Rise of the Shadow Phoenix*. Emberwing Press.",
+            "Lopez, R. M. (2017). *The River of Painted Stones*. Cascadia Books.",
+            "Mitchell, E. J. (2014). *Fires of the Northern Wastes*. Polar Star Press.",
+            "Nguyen, H. T. (2022). *Echoes of the Bamboo Grove*. Lotus Lantern Publishing.",
+            "O’Connor, S. L. (2015). *The Forgotten Manuscript of Avalon*. Mythos Press.",
+            "Parker, J. D. (2013). *Tales from the Hollow Road*. Ashwood House.",
+            "Reed, V. M. (2018). *The Glass Kingdom*. Crystal Sky Publishing.",
+            "Sanders, G. F. (2016). *The Keeper of Forgotten Keys*. Lock & Lantern Press.",
+            "Taylor, I. R. (2019). *Songs for the Vanishing World*. Whispering Pines Press.",
+            "Upton, B. C. (2011). *The Gate Beyond the Stars*. Celestial Door Books.",
+            "Vasquez, A. J. (2017). *The Orchard of Silent Winds*. Bloomfield Press.",
+            "White, D. E. (2020). *Shadows at the Edge of Dawn*. Morningstar Publishing.",
+            "Xavier, P. L. (2018). *The Crown of Silent Ashes*. Ashen Crown Press.",
+            "York, M. H. (2014). *The Watcher in the Stone Circle*. Standing Stones Press."
+        ];
+        setTimeout(function() {
+            $(document).ready(function () {
+                let results = $('#results');
+                let search_results = "";
+                let min = 0;
+                let max = fakeBooks.length - 1;
+
+                for(var i = 0; i<5000; i++){
+                    let rand_index = Math.floor(Math.random() * (max - min + 1)) + min;
+                    search_results += "<li>" + fakeBooks[rand_index] + "</li>";
+                }
+                results.html("<ul>" + search_results + "</ul>");
+                
+            });
+        }, 7000);
+    </script>
+</body>
+</html>

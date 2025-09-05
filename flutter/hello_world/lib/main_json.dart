@@ -7,13 +7,15 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter JSON Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Read JSON in Flutter'),
+          title: const Text('Read JSON in Flutter'),
         ),
         body: JsonDemo(),
       ),
@@ -22,6 +24,8 @@ class MyApp extends StatelessWidget {
 }
 
 class JsonDemo extends StatefulWidget {
+  const JsonDemo({super.key});
+
   @override
   _JsonDemoState createState() => _JsonDemoState();
 }
@@ -49,7 +53,7 @@ class _JsonDemoState extends State<JsonDemo> {
   Widget build(BuildContext context) {
     return Center(
       child: jsonData == null
-          ? CircularProgressIndicator() // Show loading spinner while data is loading
+          ? const CircularProgressIndicator() // Show loading spinner while data is loading
           : Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
