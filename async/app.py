@@ -16,6 +16,14 @@ def search_refresh():
 def results_refresh():
     return render_template('results_refresh.html')
 
+@app.route("/search_feedback")
+def search_feedback():
+    return render_template('search_feedback.html')
+
+@app.route("/results_feedback")
+def results_feedback():
+    return render_template('results_feedback.html')
+
 
 # Example API route
 @app.route("/api/greet", methods=["GET"])
