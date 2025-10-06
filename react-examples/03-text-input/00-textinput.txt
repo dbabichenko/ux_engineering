@@ -1,0 +1,45 @@
+import React, {useState} from 'react';
+import {Text, TextInput, View, StyleSheet} from 'react-native';
+
+const BusTyper = () => {
+  const [text, setText] = useState('');
+  return (
+    <View style={styles.screenContainer}>
+      <TextInput
+        style={{height: 40, padding: 5}}
+        placeholder="Type something here"
+        onChangeText={newText => setText(newText)}
+        defaultValue={text}
+      />
+      <Text style={styles.busContainer}>
+        {text}
+      </Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  screenContainer: {
+    padding: 20, // adds padding around the entire BusStop screen
+    paddingTop: 100,
+    backgroundColor: '#f8f9fa', // optional for contrast
+  },
+  busContainer: {
+    marginBottom: 10, // spacing between buses
+    padding: 10, // padding inside each Bus component
+    backgroundColor: '#ffffff',
+    borderRadius: 8,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowOffset: {width: 0, height: 2},
+    shadowRadius: 4,
+    elevation: 2, // Android shadow
+  },
+  headerText: {
+      fontSize: 20,
+      fontWeight: 'bold',
+      },
+});
+
+
+export default BusTyper;

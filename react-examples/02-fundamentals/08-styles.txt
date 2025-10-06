@@ -1,0 +1,47 @@
+import React from 'react';
+import {Text, View, StyleSheet} from 'react-native';
+
+type BusProps = {
+  route: string;
+  seats: int;
+};
+
+const Bus = (props: BusProps) => {
+  return (
+    <View style={styles.busContainer}>
+      <Text>Bus route: {props.route}</Text>
+      <Text>Seats available: {props.seats}</Text>
+    </View>
+  );
+};
+
+const BusStop = () => {
+  return (
+    <View  style={styles.screenContainer}>
+      <Bus route="61c" seats="50" />
+      <Bus route="71b" seats="75" />
+      <Bus route="P3" seats="30" />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  screenContainer: {
+    padding: 20, // adds padding around the entire BusStop screen
+    paddingTop: 100,
+    backgroundColor: '#f8f9fa', // optional for contrast
+  },
+  busContainer: {
+    marginBottom: 10, // spacing between buses
+    padding: 10, // padding inside each Bus component
+    backgroundColor: '#ffffff',
+    borderRadius: 8,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowOffset: {width: 0, height: 2},
+    shadowRadius: 4,
+    elevation: 2, // Android shadow
+  },
+});
+
+export default BusStop;

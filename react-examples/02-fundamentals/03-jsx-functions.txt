@@ -1,0 +1,16 @@
+import React from 'react';
+import {Text} from 'react-native';
+
+const getBusInfo = (
+  routeName: string,
+  currentLocation: string,
+  seats: int,
+) => {
+  return 'Route: ' + routeName + '; Current Location: ' + currentLocation + '; Number of available seats: ' + seats;
+};
+
+const Bus = () => {
+  return <Text>Here is teh latest bus info: {getBusInfo('61C', 'Forbes and Murray', 10)}!</Text>;
+};
+
+export default Bus;

@@ -1,0 +1,38 @@
+import React, {useState} from 'react';
+import {Button, Text, View} from 'react-native';
+
+type BusProps = {
+  route: string;
+  seats: int;
+};
+
+const Bus = (props: BusProps) => {
+    const [isLate, setIsLate] = useState(true);
+
+  return (
+    <View>
+      <Text>
+        Bus {props.route}, is {isLate ? 'late' : '10 minutes late'}!
+      </Text>
+      <Button
+        onPress={() => {
+          setIsLate(false);
+        }}
+        disabled={!isLate}
+        title={setIsLate ? 'How late is the bus' : 'Please be patient'}
+      />
+    </View>
+  );
+};
+
+const BusStop = () => {
+  return (
+    <>
+      <Bus route="61B" />
+      <Bus route="71A" />
+      <Bus route="P3" />
+    </>
+  );
+};
+
+export default BusStop;

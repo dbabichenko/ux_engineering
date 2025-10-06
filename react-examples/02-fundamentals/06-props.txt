@@ -1,0 +1,28 @@
+import React from 'react';
+import {Text, View} from 'react-native';
+
+type BusProps = {
+  route: string;
+  seats: int;
+};
+
+const Bus = (props: BusProps) => {
+  return (
+    <View>
+      <Text>Bus route: {props.route}</Text>
+      <Text>Seats available: {props.seats}</Text>
+    </View>
+  );
+};
+
+const BusStop = () => {
+  return (
+    <View>
+      <Bus route="61c" seats="50" />
+      <Bus route="71b" seats="75" />
+      <Bus route="P3" seats="30" />
+    </View>
+  );
+};
+
+export default BusStop;

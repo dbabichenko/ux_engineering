@@ -1,0 +1,23 @@
+import React from 'react';
+import {Text, View} from 'react-native';
+
+const Route = () => {
+  return (
+    <View>
+      <Text>61C</Text>
+    </View>
+  );
+};
+
+const Busstop = () => {
+  return (
+    <View>
+      <Text>Welcome!</Text>
+      <Route />
+      <Route />
+      <Route />
+    </View>
+  );
+};
+
+export default Busstop;

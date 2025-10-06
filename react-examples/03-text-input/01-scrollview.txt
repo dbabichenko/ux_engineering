@@ -1,0 +1,59 @@
+import React from 'react';
+import {Image, ScrollView, Text, StyleSheet} from 'react-native';
+
+const App = () => (
+  <ScrollView style={styles.screenContainer}>
+    <Text style={styles.headerText}>Scroll to see bus routes</Text>
+    <Text style={styles.plainText}>61A</Text>
+    <Text style={styles.plainText}>61B</Text>
+    <Text style={styles.plainText}>61C</Text>
+    <Text style={styles.plainText}>61D</Text>
+
+    <Text style={styles.headerText}>Scroll to see more bus routes</Text>
+        <Text style={styles.plainText}>71A</Text>
+        <Text style={styles.plainText}>71B</Text>
+        <Text style={styles.plainText}>71C</Text>
+        <Text style={styles.plainText}>71D</Text>
+
+    <Text style={styles.headerText}>Scroll to see even more bus routes</Text>
+            <Text style={styles.plainText}>41A</Text>
+            <Text style={styles.plainText}>41B</Text>
+            <Text style={styles.plainText}>41C</Text>
+            <Text style={styles.plainText}>41D</Text>
+
+     <Text style={styles.headerText}>Scroll to see bus routes</Text>
+        <Text style={styles.plainText}>61A</Text>
+        <Text style={styles.plainText}>61B</Text>
+        <Text style={styles.plainText}>61C</Text>
+        <Text style={styles.plainText}>61D</Text>
+
+        <Text style={styles.headerText}>Scroll to see more bus routes</Text>
+            <Text style={styles.plainText}>71A</Text>
+            <Text style={styles.plainText}>71B</Text>
+            <Text style={styles.plainText}>71C</Text>
+            <Text style={styles.plainText}>71D</Text>
+
+        <Text style={styles.headerText}>Scroll to see even more bus routes</Text>
+                <Text style={styles.plainText}>41A</Text>
+                <Text style={styles.plainText}>41B</Text>
+                <Text style={styles.plainText}>41C</Text>
+                <Text style={styles.plainText}>41D</Text>
+  </ScrollView>
+);
+
+const styles = StyleSheet.create({
+  screenContainer: {
+    padding: 20, // adds padding around the entire BusStop screen
+    paddingTop: 100,
+    backgroundColor: '#f8f9fa', // optional for contrast
+  },
+  plainText: {
+      fontSize: 20
+  },
+  headerText: {
+      fontSize: 40,
+      fontWeight: 'bold'
+  }
+});
+
+export default App;

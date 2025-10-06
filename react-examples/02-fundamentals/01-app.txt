@@ -1,0 +1,8 @@
+import React from 'react';
+import {Text} from 'react-native';
+
+const Bus = () => {
+  return <Text>Hello, I am your bus!</Text>;
+};
+
+export default Bus;

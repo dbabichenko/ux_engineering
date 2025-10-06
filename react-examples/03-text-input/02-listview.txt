@@ -1,0 +1,38 @@
+import React from 'react';
+import {FlatList, StyleSheet, Text, View} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 22,
+  },
+  item: {
+    padding: 10,
+    fontSize: 18,
+    height: 44,
+  },
+});
+
+const BusRoutes = () => {
+  return (
+    <View style={styles.container}>
+      <FlatList
+        data={[
+          {key: '61A'},
+          {key: '61B'},
+          {key: '61C'},
+          {key: '61D'},
+          {key: '71A'},
+          {key: '71B'},
+          {key: '71C'},
+          {key: '71D'},
+          {key: '71E'},
+          {key: '71F'},
+        ]}
+        renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
+      />
+    </View>
+  );
+};
+
+export default BusRoutes;
