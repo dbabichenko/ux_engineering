@@ -12,6 +12,6 @@ Folder Structure
         * HomeScreen.tsx
         * DetailsScreen.tsx
         * ProfileScreen.tsx
-    * navigation/
-    *     types.ts
+   * navigation/
+      * types.ts
 * App.tsx
