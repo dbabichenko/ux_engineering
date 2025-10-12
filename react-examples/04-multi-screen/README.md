@@ -7,11 +7,11 @@ In addition to your app initialization, you need to install navigation component
 
 Folder Structure
 
-IntroToReact/
-    screens/
-      HomeScreen.tsx
-      DetailsScreen.tsx
-      ProfileScreen.tsx
-    navigation/
-      types.ts
-  App.tsx
+* IntroToReactMultiscreen/
+    * screens/
+        * HomeScreen.tsx
+        * DetailsScreen.tsx
+        * ProfileScreen.tsx
+    * navigation/
+    *     types.ts
+* App.tsx
