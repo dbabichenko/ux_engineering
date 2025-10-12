@@ -1,0 +1,115 @@
+import * as React from "react";
+import { Button, Text, TextInput, View, StyleSheet } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import {
+  createNativeStackNavigator,
+  NativeStackScreenProps,
+} from "@react-navigation/native-stack";
+import { enableScreens } from "react-native-screens";
+enableScreens(true);
+
+// Define routes and their params
+type RootStackParamList = {
+  Home: undefined;
+  Details: { itemId: number };
+  Profile: { name?: string } | undefined;
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
+
+type HomeProps = NativeStackScreenProps<RootStackParamList, "Home">;
+type DetailsProps = NativeStackScreenProps<RootStackParamList, "Details">;
+type ProfileProps = NativeStackScreenProps<RootStackParamList, "Profile">;
+
+function HomeScreen({ navigation }: HomeProps) {
+  const [name, setName] = React.useState("Dmitriy");
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Home</Text>
+      <Text style={styles.paragraph}>
+        Multi-screen React Native App
+      </Text>
+
+      <TextInput
+        value={name}
+        onChangeText={setName}
+        placeholder="Enter a name"
+        style={styles.input}
+      />
+
+      <Button
+        title="Go to Details"
+        onPress={() => navigation.navigate("Details", { itemId: 42 })}
+      />
+      <View style={{ height: 12 }} />
+      <Button
+        title="Go to Profile (with param)"
+        onPress={() => navigation.navigate("Profile", { name })}
+      />
+    </View>
+  );
+}
+
+function DetailsScreen({ route, navigation }: DetailsProps) {
+  const { itemId } = route.params;
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Details</Text>
+      <Text style={styles.paragraph}>Item ID: {String(itemId)}</Text>
+      <Button title="Go Back" onPress={() => navigation.goBack()} />
+      <View style={{ height: 12 }} />
+      <Button
+        title="Replace → Profile"
+        onPress={() => navigation.replace("Profile", { name: "Grace" })}
+      />
+    </View>
+  );
+}
+
+function ProfileScreen({ route, navigation }: ProfileProps) {
+  const name = route.params?.name ?? "Anonymous";
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Profile</Text>
+      <Text style={styles.paragraph}>Hello, {name}!</Text>
+      <Button title="Pop to Top" onPress={() => navigation.popToTop()} />
+    </View>
+  );
+}
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ title: "Welcome" }}
+        />
+        <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen
+          name="Profile"
+          component={ProfileScreen}
+          options={({ route }) => ({
+            title: route.params?.name
+              ? `${route.params.name}'s Profile`
+              : "Profile",
+          })}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, padding: 20, gap: 12, justifyContent: "center" },
+  title: { fontSize: 28, fontWeight: "700" },
+  paragraph: { fontSize: 16, lineHeight: 22, opacity: 0.8 },
+  input: {
+    borderWidth: 1,
+    borderColor: "#ccc",
+    padding: 10,
+    borderRadius: 8,
+  },
+});
