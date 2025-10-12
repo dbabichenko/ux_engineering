@@ -8,7 +8,8 @@
 * Build & run on Android emulator
    * Open a new terminal window
    * Navigate to the same project directory as above
-   * Build your project: _npx react-native run-android_
+   * Build your project:
+     * _npx react-native run-android_
    * **Note** - if the Emulator is open, the app should be built and launched.
 
 
