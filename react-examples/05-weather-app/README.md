@@ -24,11 +24,11 @@ npm i react-native-maps
 Add this inside \<application\> (not inside \<activity\> and not outside \<application\>):
 
 \<application<br />
-    android:name=".MainApplication"
-    android:label="@string/app_name"
-    android:icon="@mipmap/ic_launcher"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:allowBackup="false"
+    android:name=".MainApplication"<br />
+    android:label="@string/app_name"<br />
+    android:icon="@mipmap/ic_launcher"<br />
+    android:roundIcon="@mipmap/ic_launcher_round"<br />
+    android:allowBackup="false"<br />
     android:theme="@style/AppTheme"\>
 
     <!-- ADD THIS: -->
@@ -38,7 +38,7 @@ Add this inside \<application\> (not inside \<activity\> and not outside \<appli
 
     <!-- existing activities/services below -->
     ...
-</application>
+\</application\>
 
 
 File: android/app/src/main/res/values/strings.xml
