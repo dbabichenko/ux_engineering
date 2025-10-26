@@ -23,7 +23,7 @@ npm i react-native-maps
 
 Add this inside \<application\> (not inside \<activity\> and not outside \<application\>):
 
-\<application
+\<application<br />
     android:name=".MainApplication"
     android:label="@string/app_name"
     android:icon="@mipmap/ic_launcher"
