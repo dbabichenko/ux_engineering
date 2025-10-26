@@ -1,0 +1,178 @@
+// App.tsx (Beginner-friendly, TypeScript, no Expo, minimal files)
+// Project created with: npx react-native@latest init RNWeatherBeginner --template react-native-template-typescript
+// Install: npm i react-native-maps
+// iOS: cd ios && pod install
+
+import React, { useState } from 'react';
+import { SafeAreaView, View, Text, TextInput, Button, ActivityIndicator, StyleSheet, Platform, TouchableOpacity } from 'react-native';
+import MapView, { Marker, MapPressEvent, PROVIDER_GOOGLE } from 'react-native-maps';
+
+// ====== SET YOUR KEYS ======
+const OWM_API_KEY = 'YOUR_API_KEY'; // <-- REPLACE ME
+// If you added Google Maps SDK keys to iOS/Android, keep PROVIDER_GOOGLE. Otherwise, remove provider prop below.
+
+// Simple helpers
+async function getByCity(city: string) {
+  const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&units=metric&appid=${OWM_API_KEY}`);
+  const data = await res.json();
+  if (data.cod !== 200) throw new Error(data.message || 'Failed to fetch');
+  return data;
+}
+async function getByCoords(lat: number, lon: number) {
+  const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${OWM_API_KEY}`);
+  const data = await res.json();
+  if (data.cod !== 200) throw new Error(data.message || 'Failed to fetch');
+  return data;
+}
+
+export default function App() {
+  const [tab, setTab] = useState<'city' | 'map'>('city');
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.title}>Weather App</Text>
+      <View style={styles.tabRow}>
+        <TouchableOpacity style={[styles.tabBtn, tab==='city' && styles.tabBtnActive]} onPress={() => setTab('city')}>
+          <Text style={[styles.tabText, tab==='city' && styles.tabTextActive]}>By City</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={[styles.tabBtn, tab==='map' && styles.tabBtnActive]} onPress={() => setTab('map')}>
+          <Text style={[styles.tabText, tab==='map' && styles.tabTextActive]}>On Map</Text>
+        </TouchableOpacity>
+      </View>
+
+      {tab === 'city' ? <CitySearch /> : <MapSearch />}
+    </SafeAreaView>
+  );
+}
+
+function CitySearch() {
+  const [city, setCity] = useState('');
+  const [weather, setWeather] = useState<any | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const onSearch = async () => {
+    if (!city.trim()) { setError('Please enter a city'); setWeather(null); return; }
+    setLoading(true); setError('');
+    try {
+      const data = await getByCity(city.trim());
+      setWeather(data);
+    } catch (e: any) {
+      setError(e.message);
+      setWeather(null);
+    } finally { setLoading(false); }
+  };
+
+  return (
+    <View style={styles.content}>
+      <TextInput
+        style={styles.input}
+        placeholder="e.g., Pittsburgh"
+        value={city}
+        onChangeText={setCity}
+        returnKeyType="search"
+        onSubmitEditing={onSearch}
+      />
+      <Button title="Get Weather" onPress={onSearch} />
+      {loading && <ActivityIndicator style={{ marginTop: 12 }} />}
+      {!!error && <Text style={styles.error}>{error}</Text>}
+      {weather && (
+        <View style={styles.card}>
+          <Text style={styles.cardCity}>{weather.name}</Text>
+          <Text style={styles.cardTemp}>{Math.round(weather.main.temp)}°C</Text>
+          <Text style={styles.cardDesc}>{weather.weather?.[0]?.description}</Text>
+        </View>
+      )}
+    </View>
+  );
+}
+
+function MapSearch() {
+  const [marker, setMarker] = useState<{ latitude: number; longitude: number } | null>(null);
+  const [weather, setWeather] = useState<any | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const onPress = async (e: MapPressEvent) => {
+    const { latitude, longitude } = e.nativeEvent.coordinate;
+    setMarker({ latitude, longitude });
+    setLoading(true); setError(''); setWeather(null);
+    try {
+      const data = await getByCoords(latitude, longitude);
+      setWeather(data);
+    } catch (e: any) { setError(e.message); }
+    finally { setLoading(false); }
+  };
+
+  return (
+    <View style={styles.mapWrap}>
+      <MapView
+        style={StyleSheet.absoluteFill}
+        provider={PROVIDER_GOOGLE}
+        initialRegion={{ latitude: 40.4406, longitude: -79.9959, latitudeDelta: 0.5, longitudeDelta: 0.5 }}
+        onPress={onPress}
+      >
+        {marker && <Marker coordinate={marker} />}
+      </MapView>
+
+      <View style={styles.bottomPanel}>
+        {loading && <ActivityIndicator />}
+        {!!error && <Text style={styles.errorCenter}>{error}</Text>}
+        {!loading && !error && !weather && <Text style={styles.helper}>Tap the map to get weather</Text>}
+        {weather && (
+          <View style={styles.cardWide}>
+            <Text style={styles.cardCity}>{weather.name || 'Selected location'}</Text>
+            <Text style={styles.cardTemp}>{Math.round(weather.main.temp)}°C</Text>
+            <Text style={styles.cardDesc}>{weather.weather?.[0]?.description}</Text>
+          </View>
+        )}
+      </View>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#eef7ff' },
+  title: { fontSize: 24, fontWeight: '700', textAlign: 'center', marginTop: 8 },
+  tabRow: { flexDirection: 'row', justifyContent: 'center', marginTop: 12 },
+  tabBtn: { paddingVertical: 10, paddingHorizontal: 16, borderWidth: 1, borderColor: '#2a6ef2', borderRadius: 8, marginHorizontal: 6, backgroundColor: '#fff' },
+  tabBtnActive: { backgroundColor: '#2a6ef2' },
+  tabText: { color: '#2a6ef2', fontWeight: '700' },
+  tabTextActive: { color: '#fff' },
+  content: { padding: 16 },
+  input: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#cfd8dc', borderRadius: 8, paddingHorizontal: 12, paddingVertical: Platform.OS==='ios'?12:8, marginBottom: 10 },
+  error: { color: 'red', marginTop: 10 },
+  errorCenter: { color: 'red', textAlign: 'center' },
+  card: { marginTop: 12, backgroundColor: '#fff', padding: 16, borderRadius: 12 },
+  cardWide: { backgroundColor: '#fff', padding: 16, borderRadius: 12 },
+  cardCity: { fontSize: 18, fontWeight: '700' },
+  cardTemp: { fontSize: 30, fontWeight: '800', marginVertical: 4 },
+  cardDesc: { fontSize: 14, textTransform: 'capitalize' },
+  mapWrap: { flex: 1, marginTop: 8 },
+  bottomPanel: { position: 'absolute', left: 0, right: 0, bottom: 0, padding: 10, backgroundColor: 'rgba(255,255,255,0.95)' },
+  helper: { textAlign: 'center', opacity: 0.7 },
+});
+
+/* =============================
+   Minimal setup (no Expo)
+   =============================
+1) Create app:
+   npx react-native@latest init RNWeatherBeginner --template react-native-template-typescript
+   cd RNWeatherBeginner
+
+2) Install maps:
+   npm i react-native-maps
+   # iOS pods
+   cd ios && pod install && cd ..
+
+3) Android Google Maps key (optional but recommended):
+   android/app/src/main/AndroidManifest.xml inside <application> add:
+   <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_ANDROID_GOOGLE_MAPS_SDK_KEY" />
+
+4) iOS Google Maps key (optional):
+   - Add GoogleMaps via Cocoapods and provide key in AppDelegate if you want Google provider.
+   - If you skip keys, remove provider={PROVIDER_GOOGLE} above to use default provider.
+
+5) Replace OWM key at the top of this file.
+6) Run: npm run android  /  npm run ios
+*/
