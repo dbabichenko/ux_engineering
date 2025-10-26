@@ -23,13 +23,13 @@ npm i react-native-maps
 
 Add this inside \<application\> (not inside \<activity\> and not outside \<application\>):
 
-<application
+\<application
     android:name=".MainApplication"
     android:label="@string/app_name"
     android:icon="@mipmap/ic_launcher"
     android:roundIcon="@mipmap/ic_launcher_round"
     android:allowBackup="false"
-    android:theme="@style/AppTheme">
+    android:theme="@style/AppTheme"\>
 
     <!-- ADD THIS: -->
     <meta-data
