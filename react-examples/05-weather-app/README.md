@@ -21,7 +21,7 @@ npm i react-native-maps
 
 **File: android/app/src/main/AndroidManifest.xml**
 
-Add this inside <application> (not inside <activity> and not outside <application>):
+Add this inside \<application\> (not inside \<activity\> and not outside \<application\>):
 
 <application
     android:name=".MainApplication"
