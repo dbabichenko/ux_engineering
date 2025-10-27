@@ -58,18 +58,14 @@ Add this inside \<application\> (not inside \<activity\> and not outside \<appli
 \</application\>
 
 
-File: android/app/src/main/res/values/strings.xml
+**File: android/app/src/main/res/values/strings.xml**
 
 Add your key:
 
-<resources>
-    <string name="app_name">RNWeatherBeginner</string>
-    <string name="google_maps_api_key">YOUR_ANDROID_GOOGLE_MAPS_SDK_KEY</string>
-</resources>
+\<resources\>
+    \<string name="app_name">ReactNativeWeatherWithMaps</string\>
+    \<string name="google_maps_api_key">YOUR_ANDROID_GOOGLE_MAPS_SDK_KEY</string\>
+\</resources\>
 
+(Replace __YOUR_ANDROID_GOOGLE_MAPS_SDK_KEY__ with the key you created.)
 
-(Replace with the key you created.)
-
-Alternative (env-based): in android/app/build.gradle you can set
-manifestPlaceholders = [ googleMapsApiKey: YOUR_KEY ]
-and then use ${googleMapsApiKey} in the manifest value. But the strings.xml approach above is simplest.
