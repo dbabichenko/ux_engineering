@@ -8,6 +8,23 @@ cd ReactNativeWeatherWithMaps
 npm i react-native-maps
 
 ## Get OpenWeatherMap API key
+* Create an account
+    * Go to https://openweathermap.org/register and click Sign up. 
+    * Provide your email, choose a password, and submit.
+    * Check your email and verify your address if required.
+* Log in & access the dashboard
+    * After verifying, log in at home.openweathermap.org
+    * In your account area, find the section labelled API keys (often under “My API keys” or “API key” tab). 
+* Generate or copy your API key
+    *     On the API keys page, your default key might already exist. You can use it or click Generate new key to create a fresh one.
+    * Copy the key string (it will look like a random alphanumeric value).
+    * __Important__: The key must be included in every API request you make, via the appid query parameter. 
+* Select your plan & understand limits
+    * By default, you’ll get access to the Free tier which allows a certain number of API calls per day. 
+* Use the API key in your code
+    * Example API call for current weather by city name: https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=YOUR_API_KEY
+    * Replace YOUR_API_KEY with the key you obtained.
+    * Tip: Use units=metric for Celsius, units=imperial for Fahrenheit.
 
 
 ## Get Google Maps "Maps SDK for Android" API Key
