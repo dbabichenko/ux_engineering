@@ -16,7 +16,7 @@ npm i react-native-maps
     * After verifying, log in at home.openweathermap.org
     * In your account area, find the section labelled API keys (often under “My API keys” or “API key” tab). 
 * Generate or copy your API key
-    *     On the API keys page, your default key might already exist. You can use it or click Generate new key to create a fresh one.
+    * On the API keys page, your default key might already exist. You can use it or click Generate new key to create a fresh one.
     * Copy the key string (it will look like a random alphanumeric value).
     * __Important__: The key must be included in every API request you make, via the appid query parameter. 
 * Select your plan & understand limits
