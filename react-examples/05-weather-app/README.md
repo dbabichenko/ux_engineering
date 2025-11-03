@@ -1,6 +1,7 @@
 ## Create new project:
 
-npx react-native@latest init ReactNativeWeatherWithMaps --template react-native-template-typescript
+npx @react-native-community/cli@latest init ReactNativeWeatherWithMaps
+
 cd ReactNativeWeatherWithMaps
 
 
