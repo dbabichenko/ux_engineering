@@ -1,0 +1,1325 @@
+{
+  "study": "HeritageRoots VR Usability Playtest",
+  "participants": [
+    {
+      "id": "P01",
+      "bio": "24-year-old Computer Science student named Alex, female, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:14]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:48]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:59]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:20]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:39]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:54]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:04]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:16]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:50]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:08]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:41]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:54]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "bio": "22-year-old Anthropology student named Jamie, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:07]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:37]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:55]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:24]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:58]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:04]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:13]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:33]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:38]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:02:55]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:04]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:15]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "bio": "21-year-old Engineering student named Taylor, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:15]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:40]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:49]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:21]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:45]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:03]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:19]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:35]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:48]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:12]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:31]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:55]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "bio": "24-year-old Design student named Jordan, female, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:23]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:51]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:01:26]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:36]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:02:08]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:31]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:59]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:03:12]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:41]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:04:12]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:04:46]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:05:14]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "bio": "28-year-old Information Science student named Casey, female, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:24]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:45]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:01:15]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:22]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:37]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:54]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:05]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:28]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:36]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:02:42]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:02:49]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:06]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "bio": "20-year-old Linguistics student named Riley, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:17]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:34]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:42]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:09]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:33]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:57]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:19]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:30]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:42]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:12]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:35]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:47]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "bio": "27-year-old History student named Morgan, nonbinary, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:27]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:35]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:41]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:00:46]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:07]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:21]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:01:44]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:09]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:33]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:02:52]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:20]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:47]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "bio": "25-year-old Media Studies student named Cameron, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:22]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:37]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:59]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:20]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:48]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:59]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:04]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:20]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:35]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:05]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:20]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:54]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "bio": "30-year-old Architecture student named Avery, nonbinary, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:11]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:20]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:30]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:00:49]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:01]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:30]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:01:38]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:04]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:09]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:02:33]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:02:59]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:27]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "bio": "27-year-old Psychology student named Skyler, female, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:09]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:14]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:39]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:08]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:33]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:08]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:26]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:43]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:15]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:37]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:43]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:04:08]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "bio": "25-year-old Sociology student named Rowan, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:30]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:37]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:42]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:08]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:18]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:41]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:01:58]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:14]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:48]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:04]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:33]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:04:04]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "bio": "26-year-old Digital Humanities student named Quinn, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:20]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:36]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:01:09]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:40]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:02:10]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:39]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:46]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:03:19]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:37]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:58]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:04:30]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:04:47]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "bio": "21-year-old Education student named Reese, nonbinary, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:10]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:30]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:55]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:04]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:13]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:45]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:19]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:26]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:00]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:33]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:04:00]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:04:35]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "bio": "19-year-old Music Technology student named Emerson, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:05]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:10]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:26]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:00]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:08]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:41]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:09]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:43]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:05]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:20]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:52]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:04:02]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "bio": "26-year-old Communication student named Dakota, nonbinary, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:35]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:44]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:01:03]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:29]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:58]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:11]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:29]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:03:03]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:23]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:44]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:04:11]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:04:17]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "bio": "24-year-old Political Science student named Parker, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:18]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:46]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:01:16]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:25]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:30]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:38]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:12]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:42]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:12]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:18]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:33]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:59]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "bio": "26-year-old Geography student named Kai, nonbinary, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:22]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:27]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:38]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:00:44]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:10]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:16]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:01:44]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:13]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:27]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:02:33]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:02:41]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:03]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "bio": "27-year-old Neuroscience student named Elliot, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:10]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:43]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:54]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:16]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:23]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:56]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:07]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:29]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:36]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:09]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:15]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:40]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "bio": "28-year-old Art History student named Finley, female, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:15]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:22]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:00:55]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:16]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:31]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:01:58]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:12]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:02:30]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:02:49]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:06]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:30]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:36]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    },
+    {
+      "id": "P20",
+      "bio": "29-year-old Economics student named Blake, male, highly familiar with VR and technology.",
+      "transcript": [
+        {
+          "time": "[00:00:33]",
+          "speaker": "Interviewer",
+          "text": "You are now in the HeritageRoots virtual lobby. What do you notice first?"
+        },
+        {
+          "time": "[00:00:44]",
+          "speaker": "Participant",
+          "text": "The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn\u2019t sure which gesture activates them."
+        },
+        {
+          "time": "[00:01:04]",
+          "speaker": "Interviewer",
+          "text": "Try navigating to a new scene using the teleport tool."
+        },
+        {
+          "time": "[00:01:29]",
+          "speaker": "Participant",
+          "text": "Teleportation is smooth, but I\u2019d like a quick preview of where I\u2019ll land. The fade helps, but maybe a clearer arrow would help directionally."
+        },
+        {
+          "time": "[00:01:51]",
+          "speaker": "Interviewer",
+          "text": "How do the menus and icons feel to interact with?"
+        },
+        {
+          "time": "[00:02:17]",
+          "speaker": "Participant",
+          "text": "The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me."
+        },
+        {
+          "time": "[00:02:47]",
+          "speaker": "Interviewer",
+          "text": "Can you describe how object interaction feels?"
+        },
+        {
+          "time": "[00:03:13]",
+          "speaker": "Participant",
+          "text": "Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration."
+        },
+        {
+          "time": "[00:03:29]",
+          "speaker": "Interviewer",
+          "text": "Any technical or comfort issues?"
+        },
+        {
+          "time": "[00:03:39]",
+          "speaker": "Participant",
+          "text": "No lag, though the ambient sound loop is a little short\u2014I noticed repetition after a few minutes."
+        },
+        {
+          "time": "[00:03:44]",
+          "speaker": "Interviewer",
+          "text": "How would you rate the overall ease of use?"
+        },
+        {
+          "time": "[00:03:49]",
+          "speaker": "Participant",
+          "text": "Pretty intuitive overall. I\u2019d just tweak interaction cues and maybe add a tutorial overlay at first launch."
+        }
+      ]
+    }
+  ]
+}
