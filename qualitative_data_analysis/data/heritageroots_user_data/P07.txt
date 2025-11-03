@@ -1,0 +1,16 @@
+Participant: P07
+Bio: 27-year-old History student named Morgan, nonbinary, highly familiar with VR and technology.
+
+
+[00:00:27] Interviewer: You are now in the HeritageRoots virtual lobby. What do you notice first?
+[00:00:35] Participant: The lighting and spatial sound immediately make it feel immersive. I noticed the floating panels, but wasn’t sure which gesture activates them.
+[00:00:41] Interviewer: Try navigating to a new scene using the teleport tool.
+[00:00:46] Participant: Teleportation is smooth, but I’d like a quick preview of where I’ll land. The fade helps, but maybe a clearer arrow would help directionally.
+[00:01:07] Interviewer: How do the menus and icons feel to interact with?
+[00:01:21] Participant: The icons are intuitive but slightly small. I prefer when menus curve around my view instead of staying flat in front of me.
+[00:01:44] Interviewer: Can you describe how object interaction feels?
+[00:02:09] Participant: Picking up artifacts feels satisfying. However, I expected some haptic feedback when I grabbed something, maybe a small vibration.
+[00:02:33] Interviewer: Any technical or comfort issues?
+[00:02:52] Participant: No lag, though the ambient sound loop is a little short—I noticed repetition after a few minutes.
+[00:03:20] Interviewer: How would you rate the overall ease of use?
+[00:03:47] Participant: Pretty intuitive overall. I’d just tweak interaction cues and maybe add a tutorial overlay at first launch.

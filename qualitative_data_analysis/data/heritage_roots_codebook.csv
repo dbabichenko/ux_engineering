@@ -1,0 +1,50 @@
+Code Name,Parent Code,Description,Example Quote
+Immersion,,Overall sense of presence and realism in the virtual environment,"The lighting and spatial sound immediately make it feel immersive."
+Lighting,Immersion,Participant feedback on ambient and directional light contributing to immersion,"The lighting makes the space feel alive, not flat."
+Spatial Sound,Immersion,Comments on how 3D or directional audio enhances experience,"The spatial sound makes me feel surrounded by the environment."
+Environmental Realism,Immersion,Reactions to visual and auditory realism,"It feels like I’m really in a museum."
+
+Navigation,,All comments about movement, teleportation, and spatial orientation,"Teleportation is smooth, but I’d like a quick preview of where I’ll land."
+Teleportation Feedback,Navigation,Observations about the teleport tool’s usability and visual indicators,"The fade helps, but maybe a clearer arrow would help directionally."
+Orientation,Navigation,Issues or comfort with user direction and awareness after teleporting,"I wish there was a compass or arrow showing my direction."
+Scene Transitions,Navigation,Feedback on transitions between virtual scenes,"It fades nicely, but I’d like a preview of where I’m going."
+
+Interface Design,,Feedback on menus, icons, and interface layout,"The icons are intuitive but slightly small."
+Iconography,Interface Design,Participant reactions to clarity, size, and recognizability of icons,"The icons are intuitive but I had to lean closer to see them."
+Menu Placement,Interface Design,Preferences for where and how menus appear in 3D space,"I prefer when menus curve around my view instead of staying flat."
+Gesture Controls,Interface Design,Understanding and ease of gesture-based commands,"I wasn’t sure which gesture activates the floating panels."
+
+Interaction,,Feedback on how participants engage with virtual objects and the tactile experience,"Picking up artifacts feels satisfying."
+Object Manipulation,Interaction,Ease and responsiveness of grabbing or holding objects,"Picking up artifacts feels satisfying."
+Haptic Feedback,Interaction,Expectations or reactions to vibration or tactile feedback,"I expected some haptic feedback when I grabbed something."
+Satisfaction,Interaction,Enjoyment or emotional response to interactions,"It’s really satisfying to interact with the objects naturally."
+
+Performance,,Technical stability, responsiveness, and sound consistency,"No lag, though the ambient sound loop is a little short."
+Lag/Frame Rate,Performance,Comments on performance speed or latency,"No lag throughout the experience."
+Audio Loop,Performance,Awareness of repetitive or short ambient sound loops,"The ambient sound loop is a little short—I noticed repetition."
+System Stability,Performance,Perceived smoothness and technical reliability,"Everything ran smoothly without freezing."
+
+Ease of Use,,Overall perceived usability and learning curve,"Pretty intuitive overall."
+Intuitiveness,Ease of Use,How naturally users understand controls and system feedback,"The system feels easy to pick up even without instructions."
+Learning Support,Ease of Use,Requests for tutorials or onboarding aids,"Maybe add a tutorial overlay at first launch."
+Feedback Cues,Ease of Use,Clarity of visual or auditory cues when performing actions,"I’d tweak interaction cues so it’s clearer when something’s selected."
+
+Comfort,,Physical and ergonomic comfort during VR use,"No motion sickness, but menus could be closer to my eye level."
+Motion Sickness,Comfort,Reports of nausea or disorientation,"No motion sickness, everything felt stable."
+Ergonomics,Comfort,Fit, posture, or positioning comfort,"Menus too low, I had to tilt my head a lot."
+Session Length,Comfort,Duration or fatigue concerns,"After a few minutes I felt the headset getting warm."
+
+Aesthetics,,Comments about look, feel, and artistic presentation of the environment,"The floating panels look futuristic and elegant."
+Color Palette,Aesthetics,Impressions of color schemes and tone,"Colors are calm and help me focus."
+Environment Layout,Aesthetics,Reactions to spatial composition of scenes,"The lobby layout feels balanced and inviting."
+
+Improvements & Suggestions,,All ideas for new features or refinements,"I’d add clearer arrows and a short tutorial."
+Tutorial Overlay,Improvements & Suggestions,Requests for onboarding help or tooltips,"A quick tutorial at launch would help."
+Interaction Cues,Improvements & Suggestions,Suggestions for improved affordances or feedback,"Make object highlights more visible before grabbing."
+Audio Enhancement,Improvements & Suggestions,Requests for better or longer soundscapes,"Extend ambient sound loops to reduce repetition."
+Visual Indicators,Improvements & Suggestions,Suggestions for improved on-screen hints,"A visual arrow for teleport direction would help."
+
+Overall Experience,,General user reflections and summaries of their experience,"Pretty intuitive overall. Immersive and easy to navigate."
+Enjoyment,Overall Experience,Statements of fun, satisfaction, or engagement,"It was fun exploring the artifacts."
+Confidence,Overall Experience,Participant trust in controls and environment,"I feel confident using this without instructions."
+Suggestions for Future Versions,Overall Experience,Participant ideas for iterative design improvements,"I’d just tweak some cues and maybe add a tutorial overlay."
